@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CarBuy – Offer Email (Standalone Preview)</title>
+  <style>
+    /* ===== Base (email-safe) ===== */
+    body { margin:0; padding:0; background:#f5f6f8; }
+    table { border-collapse:collapse; }
+    img { border:0; display:block; line-height:100%; -ms-interpolation-mode:bicubic; }
+    a { text-decoration:none; }
+    .container { width:640px; max-width:640px; margin:0 auto; }
+
+    /* ===== Utilities (mirrors your global template) ===== */
+    .text-muted { color:#64748b !important; }
+    .text-dark  { color:#0f172a !important; }
+    .link { color:#2E81FB !important; }
+    .small { font-size:12px !important; line-height:1.6 !important; }
+    .h3 { font-size:18px !important; line-height:1.4 !important; margin:10px 0 14px !important; }
+    .h4 { font-size:16px !important; margin:0 0 6px !important; }
+    .btn { display:inline-block; padding:10px 16px; border-radius:6px; font-family:Helvetica, Arial, sans-serif; font-size:14px; }
+    .btn-orange { background:#F26600; color:#ffffff !important; }
+    .btn-outline { color:#2E81FB !important; border:1px solid #2E81FB; }
+    .btn-ghost { color:#334155 !important; border:1px dashed #cbd5e1; background:#ffffff; }
+    .hr { height:1px; background:#e5e7eb; font-size:0; line-height:0; }
+    .col { vertical-align:top; }
+    .stack { /* becomes block on mobile */ }
+    .eyebrow { text-transform:uppercase; letter-spacing:.6px; font-size:11px !important; color:#475569 !important; }
+    .callout { background:#f3f4f6; border:1px solid #e5e7eb; border-radius:10px; }
+    .callout-inner { padding:14px 16px; }
+    .checklist td { padding:0 0 6px 0; font-size:14px; line-height:1.6; color:#334155; }
+
+    /* ===== Mobile ===== */
+    @media only screen and (max-width:640px){
+      .container { width:100% !important; }
+      .stack { display:block !important; width:100% !important; }
+      .center-sm { text-align:center !important; }
+      .btn { width:100% !important; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header (contained) -->
+  <table role="presentation" class="container" width="640" aria-hidden="true">
+    <tr><td>
+      <table role="presentation" width="100%" bgcolor="#D9D9D9" style="background:#D9D9D9; border-radius:14px 14px 0 0;">
+        <tr>
+          <td align="center" style="padding:18px 16px;">
+            <a href="https://carbuy.co.nz" target="_blank" style="display:inline-block;">
+              <img src="https://carbuy.co.nz/wp-content/uploads/2025/07/CarBuy-Logo.png" width="160" alt="CarBuy" />
+            </a>
+          </td>
+        </tr>
+      </table>
+      <table role="presentation" width="100%" bgcolor="#F26600"><tr><td style="height:4px; line-height:4px; font-size:0;">&nbsp;</td></tr></table>
+    </td></tr>
+  </table>
+
+  <!-- Card -->
+  <table role="presentation" class="container" width="640" style="margin:24px auto 28px; background:#ffffff; border-radius:14px;">
+
+    <!-- Stepper (4 steps) – current: OFFER) -->
+    <tr>
+      <td style="padding:26px 28px 8px;">
+        <table role="presentation" width="100%">
+          <tr valign="middle">
+            <!-- 1: REQUEST (completed) -->
+            <td align="center" width="19%">
+              <table role="presentation"><tr><td style="width:38px; height:38px; background:#e5e7eb; color:#64748b; border-radius:50%; font-family:Helvetica, Arial, sans-serif; font-size:16px; text-align:center;"><div style="line-height:38px; font-weight:bold;">&#10003;</div></td></tr></table>
+            </td>
+            <td width="14%"><table role="presentation" width="100%"><tr><td style="height:2px; background:#e5e7eb; font-size:0; line-height:0;">&nbsp;</td></tr></table></td>
+            <!-- 2: OFFER (active) -->
+            <td align="center" width="19%">
+              <table role="presentation"><tr><td style="width:38px; height:38px; background:#2E81FB; color:#ffffff; border-radius:50%; font-family:Helvetica, Arial, sans-serif; font-size:16px; text-align:center;"><div style="line-height:38px; font-weight:bold;">2</div></td></tr></table>
+            </td>
+            <td width="14%"><table role="presentation" width="100%"><tr><td style="height:2px; background:#e5e7eb; font-size:0; line-height:0;">&nbsp;</td></tr></table></td>
+            <!-- 3: APPOINTMENT -->
+            <td align="center" width="19%">
+              <table role="presentation"><tr><td style="width:38px; height:38px; background:#e5e7eb; color:#64748b; border-radius:50%; font-family:Helvetica, Arial, sans-serif; font-size:16px; text-align:center;"><div style="line-height:38px; font-weight:bold;">3</div></td></tr></table>
+            </td>
+            <td width="14%"><table role="presentation" width="100%"><tr><td style="height:2px; background:#e5e7eb; font-size:0; line-height:0;">&nbsp;</td></tr></table></td>
+            <!-- 4: PAYMENT -->
+            <td align="center" width="19%">
+              <table role="presentation"><tr><td style="width:38px; height:38px; background:#e5e7eb; color:#64748b; border-radius:50%; font-family:Helvetica, Arial, sans-serif; font-size:16px; text-align:center;"><div style="line-height:38px; font-weight:bold;">4</div></td></tr></table>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" style="padding-top:8px; font-family:Helvetica, Arial, sans-serif; font-size:11px; color:#475569; letter-spacing:0.6px;">REQUEST</td>
+            <td></td>
+            <td align="center" style="padding-top:8px; font-family:Helvetica, Arial, sans-serif; font-size:11px; color:#475569; letter-spacing:0.6px; font-weight:700;">OFFER</td>
+            <td></td>
+            <td align="center" style="padding-top:8px; font-family:Helvetica, Arial, sans-serif; font-size:11px; color:#94a3b8; letter-spacing:0.6px;">APPOINTMENT</td>
+            <td></td>
+            <td align="center" style="padding-top:8px; font-family:Helvetica, Arial, sans-serif; font-size:11px; color:#94a3b8; letter-spacing:0.6px;">PAYMENT</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <!-- Heading & summary -->
+    <tr>
+      <td style="padding:16px 28px 0;">
+        <p class="eyebrow" style="margin:0; font-family:Helvetica, Arial, sans-serif;">Your CarBuy offer</p>
+        <h1 style="margin:0 0 8px; font-family:Helvetica, Arial, sans-serif; font-size:28px; line-height:1.3; color:#0f172a;">Here’s your offer</h1>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:8px 28px 8px;">
+        <p style="margin:0 0 10px; font-family:Helvetica, Arial, sans-serif; font-size:16px; line-height:1.65; color:#334155;">Hello Xavier,</p>
+        <p style="margin:0; font-family:Helvetica, Arial, sans-serif; font-size:16px; line-height:1.65; color:#334155;">
+          Thank you for reaching out to <strong>CarBuy</strong>, NZ’s original and trusted mobile car-buying service <span class="text-muted">(formerly Your Salesman)</span>.
+          For your <strong>1998 Toyota Hilux</strong>, we’re pleased to extend a <strong>maximum estimated offer</strong>. See the amount below and the next steps.
+        </p>
+        <p style="margin:10px 0 0; font-family:Helvetica, Arial, sans-serif; font-size:16px; line-height:1.65; color:#334155;">
+          To confirm a <strong>final offer</strong>, we’ll need to arrange a quick <strong>inspection and evaluation</strong> of your vehicle to proceed with the deal.
+        </p>
+      </td>
+    </tr>
+
+    <!-- Offer summary card -->
+    <tr>
+      <td style="padding:12px 28px 8px;">
+        <table role="presentation" width="100%" style="background:#f3f4f6; border:1px solid #e5e7eb; border-radius:10px;">
+          <tr>
+            <td style="padding:16px; font-family:Helvetica, Arial, sans-serif;">
+              <table role="presentation" width="100%">
+                <tr>
+                  <td class="stack" width="60%" style="vertical-align:top;">
+                    <p class="eyebrow" style="margin:0 0 6px;">Maximum estimated offer</p>
+                    <p style="margin:0; font-size:28px; line-height:1.2; color:#0f172a; font-weight:700;">$14,500</p>
+                    <p class="small text-muted" style="margin:6px 0 0;">Valid until 08 Sep 2025.</p>
+                  </td>
+                  <td class="stack" width="40%" align="right" style="vertical-align:top;">
+                    <p class="small text-muted" style="margin:0;">Reference: #12495</p>
+                    <p class="small text-muted" style="margin:6px 0 0;">Buyer: Daniel</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <!-- Primary CTAs -->
+    <tr>
+      <td align="left" style="padding:16px 28px 8px;">
+        <!-- CTA prompt -->
+        <p style="margin:0 0 10px; font:14px Helvetica,Arial,sans-serif; color:#0f172a; font-weight:700;">How would you like to proceed?</p>
+
+        <table role="presentation" cellpadding="0" cellspacing="0">
+          <tr>
+            <td class="stack" style="padding:0 8px 8px 0;">
+              <a href="{{appointment_booking_url}}" target="_blank" class="btn btn-orange"><strong>LET’S TALK</strong></a>
+            </td>
+            <td class="stack" style="padding:0 8px 8px 0;">
+              <a href="{{maybe_later_url}}" target="_blank" class="btn btn-outline">Maybe later</a>
+            </td>
+            <td class="stack" style="padding:0 0 8px 0;">
+              <a href="{{decline_url}}" target="_blank" class="btn btn-ghost">No thanks</a>
+            </td>
+          </tr>
+        </table>
+        <p class="small text-muted" style="margin:8px 0 0;">Prefer to talk? Call <a href="tel:0800725376" class="link">0800&nbsp;725376</a>.</p>
+      </td>
+    </tr>
+
+    <!-- Divider -->
+    <tr><td style="padding:12px 28px;"><div class="hr"></div></td></tr>
+
+    <!-- What happens next (compact checklist) -->
+    <tr>
+      <td style="padding:0 28px 16px;">
+        <p class="eyebrow" style="margin:0 0 8px;font-family:Helvetica,Arial,sans-serif;">What happens next</p>
+        <table role="presentation" width="100%" style="background:#f3f4f6;border:1px solid #e5e7eb;border-radius:10px;">
+          <tr>
+            <td style="padding:12px 14px;font:14px Helvetica,Arial,sans-serif;color:#334155;line-height:1.6;">
+              • Book a time — we come to you.<br/>
+              • Quick check &amp; short test drive.<br/>
+              • Final offer → paid on the spot. We handle Change of Ownership.
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <!-- Divider -->
+    <tr><td style="padding:12px 28px;"><div class="hr"></div></td></tr>
+
+    <!-- Conditions / what affects final amount -->
+    <tr>
+      <td style="padding:0 28px 0;">
+        <p class="eyebrow" style="margin:0 0 6px; font-family:Helvetica, Arial, sans-serif;">What affects the final price</p>
+        <table role="presentation" width="100%" class="callout" cellpadding="0" cellspacing="0" style="margin:0 0 12px;">
+          <tr>
+            <td class="callout-inner" style="font-family:Helvetica, Arial, sans-serif;">
+              <table role="presentation" class="checklist" cellpadding="0" cellspacing="0">
+                <tr><td>• This amount is a <strong>maximum estimated offer</strong> based on the details you provided.</td></tr>
+                <tr><td>• At inspection, if we find <strong>damage, mechanical faults, cosmetic issues, or maintenance due</strong> (e.g., service, brakes/tyres, WOF items, cambelt), we’ll <strong>deduct the expected cost</strong> from the estimate to reach the final offer.</td></tr>
+                <tr><td>• If everything <strong>matches your disclosure</strong> and we <strong>don’t need to spend anything</strong>, we’ll <strong>pay the full estimated amount</strong> on the spot.</td></tr>
+                <tr><td>• <strong>Kms must be accurate</strong> and features/options as described; significant differences can change the price.</td></tr>
+                <tr><td>• If there’s <strong>outstanding finance</strong>, we can help settle it and it will be <strong>deducted from the final offer</strong>.</td></tr>
+                <tr><td>• <strong>Keys, accessories and extras</strong> supplied with the car can affect the final price.</td></tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <!-- Divider -->
+    <tr><td style="padding:12px 28px;"><div class="hr"></div></td></tr>
+
+    <!-- Helpful prep list -->
+    <tr>
+      <td style="padding:0 28px 20px;">
+        <h3 class="h3 text-dark" style="text-align:center; font-family:Helvetica, Arial, sans-serif; margin:0 0 10px;">Helpful to have ready</h3>
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+          <tr>
+            <td class="stack col" width="50%" style="padding:0 10px 0 0;">
+              <p style="margin:0 0 10px; font-family:Helvetica, Arial, sans-serif; font-size:14px; line-height:1.6; color:#334155;">• Photo ID</p>
+              <p style="margin:0 0 10px; font-family:Helvetica, Arial, sans-serif; font-size:14px; line-height:1.6; color:#334155;">• Proof of ownership (if not in your name)</p>
+              <p style="margin:0; font-family:Helvetica, Arial, sans-serif; font-size:14px; line-height:1.6; color:#334155;">• Service history (if available)</p>
+            </td>
+            <td class="stack col" width="50%" style="padding:0 0 0 10px;">
+              <p style="margin:0 0 10px; font-family:Helvetica, Arial, sans-serif; font-size:14px; line-height:1.6; color:#334155;">• All keys and accessories</p>
+              <p style="margin:0 0 10px; font-family:Helvetica, Arial, sans-serif; font-size:14px; line-height:1.6; color:#334155;">• Finance settlement letter (dated today, if applicable)</p>
+              <p style="margin:0; font-family:Helvetica, Arial, sans-serif; font-size:14px; line-height:1.6; color:#334155;">• Bank account for payment</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+  </table>
+
+  <!-- Footer + Disclaimer (preview only; global template handles these in Zendesk) -->
+  <table role="presentation" class="container" width="640" aria-hidden="true"><tr><td style="padding:18px 24px; background:#111827; border-radius:8px; color:#cbd5e1; font-family:Helvetica, Arial, sans-serif; font-size:12px;">
+    <table role="presentation" width="100%"><tr>
+      <td class="stack" width="60%" style="padding:4px 0;">CarBuy — NZ’s original mobile car-buying service · <a href="tel:0800725376" style="color:#93c5fd;"><span style="white-space:nowrap;">0800&nbsp;725376</span></a></td>
+      <td class="stack" width="40%" align="right" style="padding:4px 0;"><a href="https://carbuy.co.nz/terms-and-conditions/" style="color:#93c5fd;">Terms</a> &nbsp;•&nbsp; <a href="https://carbuy.co.nz/privacy-policy/" style="color:#93c5fd;">Privacy</a></td>
+    </tr></table>
+  </td></tr></table>
+
+  <table role="presentation" class="container" width="640" aria-hidden="true" style="margin:8px auto 24px;"><tr><td style="padding:0 24px; font-family:Helvetica, Arial, sans-serif; font-size:12px; line-height:1.6; color:#9aa3af;">
+    <p style="margin:0 0 12px;"><strong>Disclaimer:</strong> This email and any attachments are intended solely for the addressee and may contain confidential information. If you are not the intended recipient, please notify the sender and delete this email.</p>
+    <p style="margin:0 0 12px;">Salesman Limited trading as CarBuy collects and uses personal information in line with the Motor Vehicle Register’s authorised access conditions. Information is used only for verifying vehicle ownership and service compliance.</p>
+    <p style="margin:0;">While CarBuy takes reasonable precautions to ensure emails are free from harmful components, we cannot accept liability for any loss arising from their use.</p>
+  </td></tr></table>
+</body>
+</html>
